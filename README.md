@@ -7,7 +7,8 @@ This code is licensed under the MIT License. See the LICENSE file for details.
 
 ## Overview
 
-This repository contains a Python module for performing persistent homology computations using the GUDHI library. The code implements several functions to analyze the topological features of point cloud data through the construction of Rips complexes and biRips complexes. It also provides mappings between homology groups of different dimensions.
+This repository contains a Python module for performing persistent homology computations using the GUDHI library. Given a 2D dataset, the main function `data_to_pModule()` creates a persistence module that can be analyzed for decomposibility 
+(barcode admissibility) with `is_barcode_admissible()` function in repository `Barcode Admissible MPM`.
 
 ## Requirements
 
